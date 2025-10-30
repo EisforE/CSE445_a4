@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- E1: Should be Hotels instead of Hotel -->
+<Hotel>
+<!-- Example -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+<!-- 4 in Arizona -->
+<!-- E2: Missing Nearest Airport -->
+  <Hotel>
+    <Name>Gila River Resorts and Casinos</Name>
+    <Phone>800-946-4452</Phone>
+    <Address>
+      <Number>5040</Number>
+      <Street>Wild Horse Pass Boulevard</Street>
+      <City>Chandler</City>
+      <State>AZ</State>
+      <Zip>85226</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.2">
+    <Name>Arizona Grand Resort and Spa</Name>
+    <Phone>877-800-4888</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>8000</Number>
+      <Street>South Arizona Grand Parkway</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85044</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>Sheraton Grand</Name>
+    <Phone>602-225-0100</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>5594</Number>
+      <Street>W Wild Horse Pass Blvd</Street>
+      <City>Chandler</City>
+      <State>AZ</State>
+      <Zip>85226</Zip>
+    </Address>
+  </Hotel>
+
+<!-- If the website doesn't have an easy phone number i just filled it with 123-... -->
+  <Hotel Rating="3.5">
+    <Name>Palm Garden</Name>
+    <Phone>123-456-7890</Phone>
+    <Phone>987-654-3210</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>7425</Number>
+      <Street>W Chandler Blvd</Street>
+      <City>Chandler</City>
+      <State>AZ</State>
+      <Zip>85226</Zip>
+    </Address>
+  </Hotel>
+
+<!-- 4 Hotels in Oklahoma -->
+<!-- E3: Phone Element is missing -->
+  <Hotel>
+    <Name>OKANA Resort and Indoor Waterpark</Name>
+    <Address NearestAirport="Tulsa International Airport">
+      <Number>639</Number>
+      <Street>First Americans Blvd</Street>
+      <City>Oklahoma City</City>
+      <State>OK</State>
+      <Zip>73129</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.7">
+    <Name>Omni Oklahoma City Hotel</Name>
+    <Phone>123-456-7890</Phone>
+    <Phone>987-654-3210</Phone>
+    <Address NearestAirport="Tulsa International Airport">
+      <Number>100</Number>
+      <Street>West Oklahoma City Blvd</Street>
+      <City>Oklahoma City</City>
+      <State>OK</State>
+      <Zip>73109</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.4">
+    <Name>Wingate</Name>
+    <Phone>405-682-3600</Phone>
+    <Address NearestAirport="Tulsa International Airport">
+      <Number>2001</Number>
+      <Street>South Meridian</Street>
+      <City>Oklahoma City</City>
+      <State>OK</State>
+      <Zip>73108</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.8">
+    <Name>Ambassador Hotel</Name>
+    <Phone>405-600-6200</Phone>
+    <Address NearestAirport="Tulsa International Airport">
+      <Number>1200</Number>
+      <Street>North Walker Avenue</Street>
+      <City>Oklahoma City</City>
+      <State>OK</State>
+      <Zip>73103</Zip>
+    </Address>
+  </Hotel>
+
+<!-- 2 Hotels in Wisconsin -->
+<!-- E4: Missing the State End Tag-->
+  <Hotel Rating="4.5">
+    <Name>Residence Inn</Name>
+    <Phone>123-456-7890</Phone>
+    <Phone>987-654-3210</Phone>
+    <Address NearestAirport="Indianapolis International Airport">
+      <Number>3834</Number>
+      <Street>Grace Lane</Street>
+      <City>Lafayette</City>
+      <State>WI
+      <Zip>47905</Zip>
+    </Address>
+  </Hotel>
+
+<!-- E5: There are two name attributes -->
+  <Hotel>
+    <Name>The Pfister Hotel</Name>
+    <Name>The Super Hotel</Name>
+    <Phone>414-273-8222</Phone>
+    <Address NearestAirport="Milwaukee Mitchell International Airport">
+      <Number>424</Number>
+      <Street>East Wisconsin Avenue</Street>
+      <City>Milwaukee</City>
+      <State>WI</State>
+      <Zip>53202</Zip>
+    </Address>
+  </Hotel>
+
+</Hotel>
